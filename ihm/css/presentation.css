@@ -1,0 +1,38 @@
+body {
+    margin: 25px;
+}
+tr.group_ready>td {
+    background-color: #c2e2b6 !important;
+    /*color: #009900 !important;*/
+    font-weight : 700;
+}
+tr.group_held>td {
+    background-color: #f7d3a1 !important;
+/*    color: #ff4f00 !important;*/
+    font-weight : 700;
+}
+div,
+div:hover {
+    display: inline-block;
+}
+tbody>tr.status_processing>td, tbody>tr.status_processing>th, tbody>tr>td.status_processing, tbody>tr>th.status_processing{
+    background-color: #dff0d8;
+}
+tbody>tr.status_ready>td, tbody>tr.status_ready>th, tbody>tr>td.status_ready, tbody>tr>th.status_ready{
+    background-color: #ffffff;
+}
+tbody>tr.status_held>td, tbody>tr.status_held>th, tbody>tr>td.status_held, tbody>tr>th.status_held{
+    background-color: #fcf8e3;
+}
+tbody>tr.status_error>td, tbody>tr.status_error>th, tbody>tr>td.status_error, tbody>tr>th.status_error{
+    background-color: #f2dede;
+}
+th {
+    background-color: #007BC0;
+    color: white;
+    padding: 5px;
+}
+th, td {
+    padding: 2px;
+    border: 1px solid black;
+}
